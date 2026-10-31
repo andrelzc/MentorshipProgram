@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_2280944_mentor_0_mentorship_session">state=2^EQ<item display_value="Accepted" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Accepted</label>
+        <name>Accepted</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 16:21:32</sys_created_on>
+        <sys_id>5429f30d935857109583f587dd03d6a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accepted</sys_name>
+        <sys_package display_value="Mentorship Program" source="x_2280944_mentor_0">31df96fc935c93109583f587dd03d6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mentorship Program">31df96fc935c93109583f587dd03d6cf</sys_scope>
+        <sys_update_name>sys_process_flow_5429f30d935857109583f587dd03d6a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 16:21:32</sys_updated_on>
+        <table>x_2280944_mentor_0_mentorship_session</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mentorship Program">31df96fc935c93109583f587dd03d6cf</application>
+        <file_path/>
+        <instance_id>81cec1fdff08c35cc80bf8e4fc4fd9f0</instance_id>
+        <instance_name>dev374062</instance_name>
+        <name>sys_process_flow_5429f30d935857109583f587dd03d6a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_2280944_mentor_0_mentorship_session">state=2^EQ<item display_value="Accepted" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Accepted</label><name>Accepted</name><order>300</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-31 16:21:32</sys_created_on><sys_id>5429f30d935857109583f587dd03d6a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accepted</sys_name><sys_package display_value="Mentorship Program" source="x_2280944_mentor_0">31df96fc935c93109583f587dd03d6cf</sys_package><sys_policy/><sys_scope display_value="Mentorship Program">31df96fc935c93109583f587dd03d6cf</sys_scope><sys_update_name>sys_process_flow_5429f30d935857109583f587dd03d6a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-31 16:21:32</sys_updated_on><table>x_2280944_mentor_0_mentorship_session</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>-1050880988</payload_hash>
+        <record_name>Accepted</record_name>
+        <reverted_from/>
+        <source>a075f2f49310d3109583f587dd03d63a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 16:21:32</sys_created_on>
+        <sys_id>d82937c1939857109583f587dd03d6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a192c42c7d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 16:21:32</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>982937c19e98571074249cf3a14543cb</update_guid>
+        <update_guid_history>982937c19e98571074249cf3a14543cb:-1050880988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 16:45:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>438840bb9c9244a0843e8a134ab99240</sys_id>
+        <sys_metadata>5429f30d935857109583f587dd03d6a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accepted</sys_name>
+        <sys_package display_value="Mentorship Program" source="x_2280944_mentor_0">31df96fc935c93109583f587dd03d6cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mentorship Program">31df96fc935c93109583f587dd03d6cf</sys_scope>
+        <sys_scope_delete display_value="">00c9eb8ac10f489f808565b35eebac79</sys_scope_delete>
+        <sys_update_name>sys_process_flow_5429f30d935857109583f587dd03d6a2</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_5429f30d935857109583f587dd03d6a2">d82937c1939857109583f587dd03d6cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 16:45:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
