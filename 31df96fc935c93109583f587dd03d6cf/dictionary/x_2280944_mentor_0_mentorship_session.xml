@@ -3,6 +3,5 @@
         <element label="Session Date" max_length="40" name="session_date" type="glide_date_time"/>
         <element label="Mentor's Name" max_length="32" name="mentor_s_name" reference="x_2280944_mentor_0_mentor" reference_qual="available=true^EQ" reference_qual_condition="available=true^EQ" type="reference"/>
         <element label="Session Feedback" max_length="40" name="session_feedback" type="html"/>
-        <element label="Mentee" max_length="32" name="mentee" reference="sys_user" type="reference"/>
     </element>
 </database>
