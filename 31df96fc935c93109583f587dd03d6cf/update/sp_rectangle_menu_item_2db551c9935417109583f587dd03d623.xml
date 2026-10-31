@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>empty</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>New Mentorship Session</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item display_value="Mentorship Session">03e7c94d93d017109583f587dd03d66a</sc_cat_item>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_rectangle_menu/>
+        <sp_rectangle_menu_item display_value="More">01ef85b65368301056c1ddeeff7b12ce</sp_rectangle_menu_item>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 04:32:47</sys_created_on>
+        <sys_id>2db551c9935417109583f587dd03d623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Mentorship Session</sys_name>
+        <sys_package display_value="Mentorship Program" source="x_2280944_mentor_0">31df96fc935c93109583f587dd03d6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mentorship Program">31df96fc935c93109583f587dd03d6cf</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_2db551c9935417109583f587dd03d623</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 04:32:47</sys_updated_on>
+        <table/>
+        <type>sc_cat_item</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=2db551c9935417109583f587dd03d623"/>
+</record_update>
